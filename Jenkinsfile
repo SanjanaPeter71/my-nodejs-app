@@ -10,7 +10,7 @@ pipeline {
                 echo 'building the application..'
                 nodejs('NodeJS-21.4.0'){
                     sh 'npm install'
-                    sh 'npm run start'
+
                 }
             }
         }
